@@ -1,0 +1,136 @@
+/*
+  The CSS in this style tag is based off of Bear Blog's default CSS.
+  https://github.com/HermanMartinus/bearblog/blob/297026a877bc2ab2b3bdfbd6b9f7961c350917dd/templates/styles/blog/default.css
+  License MIT: https://github.com/HermanMartinus/bearblog/blob/master/LICENSE.md
+ */
+body {
+	font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Verdana, sans-serif;
+	margin: auto;
+	padding: 20px;
+	max-width: 65ch;
+	text-align: left;
+	background-color: rgb(8, 8, 8);
+	word-wrap: break-word;
+	overflow-wrap: break-word;
+	line-height: 1.5;
+	color: rgb(149, 167, 161);
+}
+h1{
+	font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Verdana, sans-serif;
+	margin: auto;
+	padding: 20px;
+	max-width: 65ch;
+	text-align: left;
+	background-color: rgba(10, 10, 10, 0);
+	word-wrap: break-word;
+	overflow-wrap: break-word;
+	line-height: 1.5;
+	color: #ff848e;
+},
+h2,
+h3,
+h4,
+h5,
+h6,
+strong,
+b {
+	color: rgb(143, 187, 169);
+}
+a {
+	color: #00f38e;
+}
+nav a{
+  
+  clear: both;
+  width: 75%; 
+  margin: 3% auto;
+  font-style: normal
+  box-shadow:20px 20px 20px;
+  font-family: ''Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode;
+  font-size:22px;
+	color: rgb(77, 77, 77);
+	background-color: #00f38e
+	
+}
+
+nav ul {
+  list-style: none;
+  margin: 20px;
+  padding: 20px;
+	color: rgb(77, 77, 77);
+}
+
+nav li{
+  width: 100%;
+}
+
+nav li a{
+  display: block; 
+  width: 100%; 
+  padding: 40px; 
+  border-left: 10px solid; 
+  position: relative; 
+  z-index: 5;
+  text-decoration: none;
+  color: rgb(77, 77, 77);
+  box-sizing: border-box;  
+  -moz-box-sizing: border-box;  
+  -webkit-box-sizing: border-box; 
+}
+	
+nav li a:hover{ border-bottom: 0px; color: rgb(51, 51, 51);}
+nav li:first-child a{ border-left: 10px solid #3498db; }
+nav li:nth-child(2) a{ border-left: 10px solid #ffd071; }
+nav li:nth-child(3) a{ border-left: 10px solid #f0776c; }
+nav li:last-child a{ border-left: 10px solid #1abc9c; }
+
+nav li a:after { 
+  content: "";
+  height: 100%; 
+  left: 10px; 
+  top: 10px; 
+  width: 0px;  
+  position: absolute; 
+  transition: all 0.3s ease 0s; 
+  -webkit-transition: all 0.3s ease 0s; 
+  z-index: -1;
+}
+nav li a:hover:after{ width: 100%; }
+
+}
+
+
+textarea {
+	width: 100%;
+	font-size: 20px;
+}
+input {
+	font-size: 20px;
+}
+content {
+	line-height: 1.9;
+}
+table {
+	width: 100%;
+}
+img {
+	max-width: 100%;
+	height: auto;
+}
+code {
+	padding: 2px 5px;
+	background-color: #4b4b4b;
+}
+pre {
+	padding: 1.1rem;
+}
+pre > code {
+	all: unset;
+}
+blockquote {
+	border: 1px solid rgb(142, 255, 227);
+	color: rgb(131, 255, 228);
+	padding: 2px 0px 2px 20px;
+	margin: 0px;
+	font-style: italic;
+}
